@@ -14,8 +14,8 @@ def main():
     output_message = "Ping OK (job vacío)."
 
     try:
-        siemplify.LOGGER.info("🚀 TercerJob - job de prueba")
-        siemplify.LOGGER.info("🚀 ÉXITO POR FIN. Si aparece esto es que se ha hecho bien")
+        siemplify.LOGGER.info("🚀 Nuevo Job - job de prueba")
+        siemplify.LOGGER.info("🚀 Mal, otra vez. Si sigue saliendo esto es que está mal todavía")
         # Aquí irá tu lógica real cuando quieras
     except Exception as e:
         status = EXECUTION_STATE_FAILED
