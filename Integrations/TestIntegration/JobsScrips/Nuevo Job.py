@@ -15,7 +15,6 @@ def main():
 
     try:
         siemplify.LOGGER.info("🚀 Nuevo Job - job de prueba")
-        siemplify.LOGGER.info("🚀 Este mensaje no puede verse")
         # Aquí irá tu lógica real cuando quieras
     except Exception as e:
         status = EXECUTION_STATE_FAILED
