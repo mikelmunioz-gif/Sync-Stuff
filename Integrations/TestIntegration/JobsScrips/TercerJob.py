@@ -14,8 +14,8 @@ def main():
     output_message = "Ping OK (job vacío)."
 
     try:
-        siemplify.LOGGER.info("🚀 TestJob - job de prueba")
-        siemplify.LOGGER.info("🚀 Este mensaje no puede verse")
+        siemplify.LOGGER.info("🚀 TercerJob - job de prueba")
+        siemplify.LOGGER.info("🚀 Este es el único job que se tendría que cambiar")
         # Aquí irá tu lógica real cuando quieras
     except Exception as e:
         status = EXECUTION_STATE_FAILED
