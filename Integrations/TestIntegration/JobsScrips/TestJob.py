@@ -15,7 +15,7 @@ def main():
 
     try:
         siemplify.LOGGER.info("🚀 TestJob - job de prueba")
-        siemplify.LOGGER.info("🚀 Mal")
+        siemplify.LOGGER.info("🚀 Mal 1")
         # Aquí irá tu lógica real cuando quieras
     except Exception as e:
         status = EXECUTION_STATE_FAILED
