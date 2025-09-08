@@ -15,8 +15,7 @@ def main():
 
     try:
         siemplify.LOGGER.info("🚀 Nuevo Job - job de prueba")
-        siemplify.LOGGER.info("🚀 Este Job se ha creado en IDE para hacer pruebas")
-        siemplify.LOGGER.info("🚀 CAMBIO HECHO")
+        siemplify.LOGGER.info("🚀 Este mensaje no se tendría que ver. Si estás leyendo esto es que has fallado")
         # Aquí irá tu lógica real cuando quieras
     except Exception as e:
         status = EXECUTION_STATE_FAILED
