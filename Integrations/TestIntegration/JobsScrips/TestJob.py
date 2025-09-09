@@ -15,8 +15,7 @@ def main():
 
     try:
         siemplify.LOGGER.info("🚀 TestJob - job de prueba")
-        siemplify.LOGGER.info("🚀 ESTO NO DEBERÍA VERSE 4")
-        siemplify.LOGGER.info("🚀 wadbn<uiqwhe9u8<dhiop90")
+        siemplify.LOGGER.info("🚀 ESTO NO DEBERÍA VERSE 9")
         # Aquí irá tu lógica real cuando quieras
     except Exception as e:
         status = EXECUTION_STATE_FAILED
