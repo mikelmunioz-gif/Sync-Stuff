@@ -10,7 +10,15 @@
   "IsCustom": true,
   "PythonVersion": 3,
   "IntegrationProperties": [],
-  "IntegrationSupportedActions": [],
+  "IntegrationSupportedActions": [
+    {
+      "Name": "TestAction",
+      "Description": "",
+      "Id": 4506,
+      "CreationTimeUnixTimeInMs": 1757401753969,
+      "ModificationTimeUnixTimeInMs": 1757401753969
+    }
+  ],
   "Categories": null,
   "HasConnectors": false,
   "DocumentationLink": null,
