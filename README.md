@@ -6,6 +6,12 @@
 |TestIntegration|None|
 
 
+## Connectors
+|Name|Description|Has Mappings|
+|----|-----------|------------|
+|MyTestConnector||False|
+
+
 ## Jobs
 |Name|Description|
 |----|-----------|
