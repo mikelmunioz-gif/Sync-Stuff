@@ -2,7 +2,7 @@
   "IsAvailableForCommunity": false,
   "Identifier": "TestIntegration",
   "ShouldInstalledInSystem": false,
-  "Version": 3.0,
+  "Version": 4.0,
   "DisplayName": "TestIntegration",
   "Description": null,
   "ImageBase64": null,
@@ -12,11 +12,18 @@
   "IntegrationProperties": [],
   "IntegrationSupportedActions": [
     {
+      "Name": "SecondTestAction",
+      "Description": "",
+      "Id": 4507,
+      "CreationTimeUnixTimeInMs": 1757414825857,
+      "ModificationTimeUnixTimeInMs": 1757414825860
+    },
+    {
       "Name": "TestAction",
       "Description": "",
       "Id": 4506,
-      "CreationTimeUnixTimeInMs": 1757413971580,
-      "ModificationTimeUnixTimeInMs": 1757413971587
+      "CreationTimeUnixTimeInMs": 1757414820868,
+      "ModificationTimeUnixTimeInMs": 1757414820871
     }
   ],
   "Categories": null,
@@ -33,5 +40,5 @@
   "Type": 0,
   "Id": 0,
   "CreationTimeUnixTimeInMs": 1757412636502,
-  "ModificationTimeUnixTimeInMs": 1757413953302
+  "ModificationTimeUnixTimeInMs": 1757414842201
 }
