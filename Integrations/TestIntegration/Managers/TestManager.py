@@ -3,5 +3,5 @@ class CustomManager(object):
         pass
         
     def method_a(self):
-        siemplify.LOGGER.info("Test 18")
+        siemplify.LOGGER.info("Test 19")
         pass
