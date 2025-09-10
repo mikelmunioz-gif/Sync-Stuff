@@ -29,7 +29,7 @@ def main():
 
     siemplify.LOGGER.info("===== Iniciando conector de ejemplo =====")
     print("Hola mundo")   # salida estándar
-    siemplify.LOGGER.info("MyTestConnector 17")  # salida en logs de SecOpsproi
+    siemplify.LOGGER.info("MyTestConnector 18")  # salida en logs de SecOpsproi
 
     # Siempre hay que devolver una lista de casos (aunque vacía)
     return []

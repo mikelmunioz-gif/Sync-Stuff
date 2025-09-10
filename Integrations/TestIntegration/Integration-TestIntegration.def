@@ -2,7 +2,7 @@
   "IsAvailableForCommunity": false,
   "Identifier": "TestIntegration",
   "ShouldInstalledInSystem": false,
-  "Version": 7.0,
+  "Version": 9.0,
   "DisplayName": "TestIntegration",
   "Description": null,
   "ImageBase64": null,
@@ -15,15 +15,15 @@
       "Name": "SecondTestAction",
       "Description": "",
       "Id": 4507,
-      "CreationTimeUnixTimeInMs": 1757417387364,
-      "ModificationTimeUnixTimeInMs": 1757417387371
+      "CreationTimeUnixTimeInMs": 1757489944067,
+      "ModificationTimeUnixTimeInMs": 1757489944075
     },
     {
       "Name": "TestAction",
       "Description": "",
       "Id": 4506,
-      "CreationTimeUnixTimeInMs": 1757417396100,
-      "ModificationTimeUnixTimeInMs": 1757417396103
+      "CreationTimeUnixTimeInMs": 1757489951426,
+      "ModificationTimeUnixTimeInMs": 1757489951430
     }
   ],
   "Categories": null,
@@ -39,6 +39,6 @@
   "ProductionIntegrationIdentifier": null,
   "Type": 0,
   "Id": 0,
-  "CreationTimeUnixTimeInMs": 1757416558205,
-  "ModificationTimeUnixTimeInMs": 1757417371784
+  "CreationTimeUnixTimeInMs": 1757418065427,
+  "ModificationTimeUnixTimeInMs": 1757489924251
 }
