@@ -1,7 +1,7 @@
 {
   "Name": "SegundoJob",
   "Integration": "TestIntegration",
-  "Script": "JobsScrips/SegundoJob.py",
+  "Script": "JobsScripts/SegundoJob.py",
   "Creator": "eb16e925-f9ed-4c6f-b891-b537c8662f02",
   "RunIntervalInSeconds": 900,
   "Description": "",
@@ -19,31 +19,31 @@
     },
     {
       "Name": "Dry Run",
-      "Description": "No hace cambios; solo registra en log.",
+      "Description": "No hace cambios; solo log.",
       "IsMandatory": false,
       "Type": "Boolean",
-      "DefaultValue": "False"
+      "DefaultValue": false
     },
     {
       "Name": "Verify SSL",
-      "Description": "Verifica certificados TLS en llamadas salientes.",
+      "Description": "Verifica certificados TLS.",
       "IsMandatory": false,
       "Type": "Boolean",
-      "DefaultValue": "True"
+      "DefaultValue": true
     },
     {
       "Name": "Time Window (Minutes)",
-      "Description": "Minutos hacia atrás desde ahora para el rango temporal.",
+      "Description": "Minutos hacia atrás desde ahora.",
       "IsMandatory": false,
       "Type": "Integer",
-      "DefaultValue": "60"
+      "DefaultValue": 60
     },
     {
       "Name": "Max Items",
       "Description": "Límite de elementos a procesar.",
       "IsMandatory": false,
       "Type": "Integer",
-      "DefaultValue": "100"
+      "DefaultValue": 100
     },
     {
       "Name": "Log Level",
