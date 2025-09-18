@@ -1,0 +1,18 @@
+{
+  "Name": "HelloJob",
+  "Integration": "TestIntegration2",
+  "Script": "JobsScripts/HelloJob.py",
+  "RunIntervalInSeconds": 900,
+  "IsCustom": true,
+  "IsEnabled": false,
+  "Version": 1,
+  "Parameters": [
+    {
+      "Name": "Test",
+      "Description": ".",
+      "IsMandatory": true,
+      "Type": "String",
+      "DefaultValue": "Hola"
+    }
+  ]
+}
