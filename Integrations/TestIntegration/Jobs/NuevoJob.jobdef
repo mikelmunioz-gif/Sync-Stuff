@@ -13,6 +13,13 @@
       "IsMandatory": true,
       "Type": "String",
       "DefaultValue": "Hola"
+    },
+    {
+      "Name": "Test2",
+      "Description": ".",
+      "IsMandatory": true,
+      "Type": "String",
+      "DefaultValue": "Hola"
     }
   ]
 }
