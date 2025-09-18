@@ -1,7 +1,7 @@
 {
   "Name": "SegundoJob",
   "Integration": "TestIntegration",
-  "Script": "JobsScripts/SegundoJob.py",
+  "Script": "JobsScrips/SegundoJob.py",
   "Creator": "eb16e925-f9ed-4c6f-b891-b537c8662f02",
   "RunIntervalInSeconds": 900,
   "Description": "",
