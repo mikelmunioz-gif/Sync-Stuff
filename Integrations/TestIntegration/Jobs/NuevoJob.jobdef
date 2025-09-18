@@ -1,0 +1,18 @@
+{
+  "Name": "NuevoJob",
+  "Integration": "TestIntegration",
+  "Script": "JobsScripts/NuevoJob.py",
+  "RunIntervalInSeconds": 900,
+  "IsCustom": true,
+  "IsEnabled": false,
+  "Version": 1,
+  "Parameters": [
+    {
+      "Name": "Test",
+      "Description": ".",
+      "IsMandatory": true,
+      "Type": "String",
+      "DefaultValue": "Hola"
+    }
+  ]
+}
