@@ -1,0 +1,9 @@
+{
+  "Name": "TestAction",
+  "Integration": "TestIntegration2",
+  "Script": "ActionsScripts/TestAction.py",
+  "RunIntervalInSeconds": 900,
+  "IsCustom": true,
+  "IsEnabled": false,
+  "Version": 1
+}
