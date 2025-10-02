@@ -1,0 +1,37 @@
+{
+  "IsAvailableForCommunity": false,
+  "Identifier": "TestIntegration2",
+  "ShouldInstalledInSystem": false,
+  "Version": 1.0,
+  "DisplayName": "TestIntegration2",
+  "Description": "",
+  "ImageBase64": null,
+  "SvgImage": null,
+  "IsCustom": true,
+  "PythonVersion": 3,
+  "IntegrationProperties": [],
+  "IntegrationSupportedActions": [
+    {
+      "Name": "TestAction",
+      "Description": null,
+      "Id": 4513,
+      "CreationTimeUnixTimeInMs": 1758638545551,
+      "ModificationTimeUnixTimeInMs": 1758638545648
+    }
+  ],
+  "Categories": null,
+  "HasConnectors": false,
+  "DocumentationLink": null,
+  "IsCertified": false,
+  "UploaderFullName": null,
+  "PublishComment": null,
+  "UploaderEmail": null,
+  "UploaderImageBase64": "",
+  "UploaderProfileLink": null,
+  "MinimumSystemVersion": 0.0,
+  "ProductionIntegrationIdentifier": null,
+  "Type": 0,
+  "Id": 0,
+  "CreationTimeUnixTimeInMs": 1758638545637,
+  "ModificationTimeUnixTimeInMs": 1758638545637
+}
