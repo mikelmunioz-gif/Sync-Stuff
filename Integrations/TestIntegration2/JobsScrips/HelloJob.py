@@ -18,7 +18,7 @@ def main():
 
     try:
         siemplify.LOGGER.info(f"🚀 HelloJob(TestIntegration2) | Test={TEST}")
-        siemplify.LOGGER.info(f"Mensaje de prueba. Si sale es que todo ha salido bien")
+        siemplify.LOGGER.info(f"Mensaje de prueba. Si sale es que todo ha salido bien. CAMBIO HECHO")
         # tu lógica real aquí
     except Exception as e:
         status = EXECUTION_STATE_FAILED
