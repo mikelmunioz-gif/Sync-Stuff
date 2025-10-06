@@ -1,0 +1,52 @@
+{
+    "lastRunStatus": 0,
+    "lastRunTime": 1759745601426,
+    "uniqueIdentifier": "e17ed394-8a5a-4ce7-bbd1-74a5c38bee3d",
+    "id": 0,
+    "jobDefinitionId": 0,
+    "name": "HelloJob",
+    "integration": "TestIntegration2",
+    "script": "from SiemplifyJob import SiemplifyJob\nfrom SiemplifyUtils import output_handler\nfrom ScriptResult import EXECUTION_STATE_COMPLETED, EXECUTION_STATE_FAILED\n\nSCRIPT_NAME = \"HelloJob\"\n\n@output_handler\ndef main():\n    siemplify = SiemplifyJob()\n    siemplify.script_name = SCRIPT_NAME\n\n    # Lee el par\u00e1metro que definimos en el .jobdef\n    TEST = siemplify.extract_job_param(\"Test\", input_type=str, is_mandatory=True)\n\n    status = EXECUTION_STATE_COMPLETED\n    result_value = True\n    output_message = \"OK\"\n\n    try:\n        siemplify.LOGGER.info(f\"\ud83d\ude80 HelloJob(TestIntegration2) | Test={TEST}\")\n        siemplify.LOGGER.info(f\"Mensaje de prueba. Si sale es que todo ha salido bien. CAMBIO HECHO 1\")\n        # tu l\u00f3gica real aqu\u00ed\n    except Exception as e:\n        status = EXECUTION_STATE_FAILED\n        result_value = False\n        output_message = f\"Error: {e}\"\n\n    siemplify.end(output_message, result_value, status)\n\nif __name__ == \"__main__\":\n    main()\n",
+    "creator": "eb16e925-f9ed-4c6f-b891-b537c8662f02",
+    "description": "",
+    "isEnabled": true,
+    "isCustom": true,
+    "version": 3,
+    "parameters": [
+        {
+            "id": 532,
+            "isMandatory": true,
+            "name": "Test",
+            "type": 2,
+            "value": "Holaa soy yo"
+        }
+    ],
+    "runIntervalInSeconds": 86400,
+    "creationTime": "2025-10-02T10:10:06.82Z",
+    "lastModificationTime": "2025-10-06T12:54:38.754Z",
+    "isSystemJob": false,
+    "jobDefinitionName": "HelloJob",
+    "agentIdentifier": "",
+    "advanced": false,
+    "advancedConfig": {
+        "timeZone": "Europe/London",
+        "scheduleType": "Once",
+        "oneTimeSchedule": {
+            "startDate": {
+                "year": 2025,
+                "month": 10,
+                "day": 3
+            },
+            "time": {
+                "hours": 10,
+                "minutes": 9,
+                "seconds": 0,
+                "nanos": 0
+            },
+            "interval": 0
+        },
+        "dailySchedule": null,
+        "weeklySchedule": null,
+        "monthlySchedule": null
+    }
+}

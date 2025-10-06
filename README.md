@@ -4,7 +4,6 @@
 |Name|Description|
 |----|-----------|
 |TestIntegration|None|
-|TestIntegration2||
 
 
 ## Connectors
@@ -12,4 +11,10 @@
 |----|-----------|------------|
 |MySecondTestConnector||False|
 |MyTestConnector||False|
+
+
+## Jobs
+|Name|Description|
+|----|-----------|
+|HelloJob||
 
