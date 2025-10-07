@@ -56,9 +56,16 @@ None
 |Dry Run|False|Boolean|false|
 |Max Items|False|Integer|100|
 |Prueba|True|String|Param|
+|Test_email|True|Email|a@a.com|
+|Test_IP|True|IP|8.8.8.8|
+|Test_Pass|True|Password|*****|
 
 #### TestJob
 
+
+|Name|IsMandatory|Type|DefaultValue|
+|----|-----------|----|------------|
+|Test|True|String|Hola|
 
 #### TercerJob
 
